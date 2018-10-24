@@ -1,0 +1,100 @@
+html, body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #ffaab7;
+  min-width:260px;
+}
+#main {
+  background-color: pink;
+  margin: auto;
+  padding: 15px;
+  border-radius:4px;
+}
+#title {
+  font-size: 32pt;
+}
+img{
+  max-width: 95%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border-radius: 4px;
+  padding:  5px 5px 15px 5px ;
+}
+#img-div {
+  background-color: #ffd1d9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 4px;
+}
+#img-caption {
+  font-style: italic;
+  font-size: 20pt;
+}
+#tribute-info {
+  padding: 20px;
+  font-stretch: condensed;
+  font-size: 14pt;
+}
+.list-header {
+  font-size: 20pt;
+}
+#list {
+  font-size: 12pt;
+  line-height: 140%;
+}
+.column {
+  float: left;
+  width: 33%;
+  /* background-color: red; */
+  }
+
+.row {
+  display:inline-block;
+}
+
+.gif-panel {
+  text-align:center
+}
+
+#tribute-link {
+  font-size: 28pt;
+  font-family: fantasy;
+  padding-bottom: 50px;
+  margin: 50px;
+  /* background-color: red; */
+}
+#papa-franku {
+  padding-top: 1000px;
+}
+
+/* @keyframes #papa-franku {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+#papa-franku    {height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+} */
+/* .gif-panel {
+  align-content: center;
+} */
+
+/* Three image containers (use 25% for four, and 50% for two, etc)
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+ Clear floats after image containers
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+*/
